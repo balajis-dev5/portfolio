@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, useReducedMotion } from 'framer-motion'
 import type { ReactNode } from 'react'
 
 interface RevealProps {
@@ -7,8 +7,19 @@ interface RevealProps {
   className?: string
 }
 
-/** Fade-and-rise entrance when the element scrolls into view. */
+/**
+ * Fade-and-rise entrance when the element scrolls into view.
+ * Respects prefers-reduced-motion: when set, content renders immediately
+ * at its natural state (no opacity:0 start), so it can never get stranded
+ * hidden if the entrance animation doesn't run.
+ */
 export default function Reveal({ children, delay = 0, className }: RevealProps) {
+  const reduceMotion = useReducedMotion()
+
+  if (reduceMotion) {
+    return <div className={className}>{children}</div>
+  }
+
   return (
     <motion.div
       className={className}

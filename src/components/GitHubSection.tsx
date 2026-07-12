@@ -4,7 +4,7 @@ import Section from './Section'
 
 /**
  * GitHub stats cards render from public image services once
- * balajis-dev is replaced in src/data/profile.ts.
+ * barath19231 is replaced in src/data/profile.ts.
  */
 export default function GitHubSection() {
   const user = profile.githubUsername

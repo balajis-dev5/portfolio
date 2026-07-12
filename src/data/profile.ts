@@ -1,6 +1,6 @@
 /**
  * Single source of truth for all portfolio content.
- * Identity values are filled (github: balajis-dev, linkedin: balaji-s-dev).
+ * Identity values are filled (github: barath19231, linkedin: balaji-s-dev).
  * Only the testimonials below still contain [[placeholders]] — the section
  * stays hidden until real quotes replace them.
  */
@@ -33,7 +33,8 @@ export interface Project {
   description: string
   highlights: string[]
   tags: string[]
-  github: string
+  /** Omit until the repo is actually public — a dead link is worse than a badge. */
+  github?: string
   live?: string
   featured: boolean
 }
@@ -72,8 +73,8 @@ export const profile = {
   location: 'Madurai, Tamil Nadu, India',
   email: 'barath19231@gmail.com',
   phone: '+91 88381 87342',
-  githubUsername: 'balajis-dev',
-  github: 'https://github.com/balajis-dev',
+  githubUsername: 'barath19231',
+  github: 'https://github.com/barath19231',
   linkedin: 'https://www.linkedin.com/in/balaji-s-dev',
   resumeUrl: '/Balaji_S_Full_Stack_Developer.pdf',
   yearsOfExperience: '2+',
@@ -211,7 +212,6 @@ export const projects: Project[] = [
       'Queued exports (Excel/CSV/PDF) + email scheduling',
     ],
     tags: ['Laravel 12', 'React 19', 'TypeScript', 'MySQL', 'Chart.js', 'Tailwind'],
-    github: 'https://github.com/balajis-dev/advanced-report-builder',
     live: undefined,
     featured: true,
   },
@@ -226,7 +226,6 @@ export const projects: Project[] = [
       'Dark mode, fully responsive',
     ],
     tags: ['React 19', 'TanStack Query', 'Laravel 12', 'PostgreSQL', 'JWT', 'Zod'],
-    github: 'https://github.com/balajis-dev/modern-crm',
     live: undefined,
     featured: true,
   },
@@ -236,7 +235,6 @@ export const projects: Project[] = [
       'Real-estate property and unit inventory: availability, booking workflow, pricing, floor plans, and a Google-Maps view with clustering and territory filters.',
     highlights: [],
     tags: ['Laravel', 'React', 'Maps API', 'MySQL'],
-    github: 'https://github.com/balajis-dev/property-management-system',
     featured: false,
   },
   {
@@ -245,7 +243,6 @@ export const projects: Project[] = [
       'Production-grade admin template: auth, RBAC menus, data tables, charts, form patterns with React Hook Form + Zod, and a clean layout system.',
     highlights: [],
     tags: ['React 19', 'TypeScript', 'Tailwind', 'TanStack Query'],
-    github: 'https://github.com/balajis-dev/react-admin-dashboard',
     featured: false,
   },
   {
@@ -254,7 +251,6 @@ export const projects: Project[] = [
       'Typed, accessible component library — buttons, inputs, modals, tables, toasts — with docs pages. The design system behind my other projects.',
     highlights: [],
     tags: ['React 19', 'TypeScript', 'Tailwind', 'a11y'],
-    github: 'https://github.com/balajis-dev/react-ui-library',
     featured: false,
   },
   {
@@ -263,7 +259,6 @@ export const projects: Project[] = [
       'Opinionated Laravel 12 REST API starter: JWT auth, RBAC, API resources, form requests, service layer, Docker, Postman collection and CI-ready tests.',
     highlights: [],
     tags: ['Laravel 12', 'PHP 8.3', 'JWT', 'Docker'],
-    github: 'https://github.com/balajis-dev/laravel-api-template',
     featured: false,
   },
 ]

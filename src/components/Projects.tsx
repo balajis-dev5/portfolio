@@ -1,7 +1,17 @@
-import { ExternalLink, Github, Star } from 'lucide-react'
+import { ExternalLink, Github, Hammer, Star } from 'lucide-react'
 import { projects, profile } from '../data/profile'
 import Reveal from './Reveal'
 import Section from './Section'
+
+/** Shown instead of a repo link while the code is still being open-sourced. */
+function InDevelopmentBadge() {
+  return (
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-zinc-100 px-2.5 py-1 text-xs font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+      <Hammer size={12} aria-hidden="true" />
+      In development
+    </span>
+  )
+}
 
 export default function Projects() {
   const featured = projects.filter((p) => p.featured)
@@ -19,16 +29,20 @@ export default function Projects() {
                   <Star size={12} aria-hidden="true" />
                   Featured
                 </span>
-                <div className="flex gap-1">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.name} on GitHub`}
-                    className="rounded-lg p-2 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
-                  >
-                    <Github size={18} />
-                  </a>
+                <div className="flex items-center gap-1">
+                  {project.github ? (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${project.name} on GitHub`}
+                      className="rounded-lg p-2 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
+                    >
+                      <Github size={18} />
+                    </a>
+                  ) : (
+                    <InDevelopmentBadge />
+                  )}
                   {project.live && (
                     <a
                       href={project.live}
@@ -91,15 +105,19 @@ export default function Projects() {
                 <h3 className="text-base font-bold text-zinc-900 dark:text-white">
                   {project.name}
                 </h3>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={`${project.name} on GitHub`}
-                  className="rounded-lg p-1.5 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
-                >
-                  <Github size={17} />
-                </a>
+                {project.github ? (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${project.name} on GitHub`}
+                    className="rounded-lg p-1.5 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
+                  >
+                    <Github size={17} />
+                  </a>
+                ) : (
+                  <InDevelopmentBadge />
+                )}
               </div>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                 {project.description}

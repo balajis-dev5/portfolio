@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-weld-mu-2hvafer4c2.vercel.app/sitemap.xml

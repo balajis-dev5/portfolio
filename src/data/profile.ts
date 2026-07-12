@@ -1,0 +1,350 @@
+/**
+ * Single source of truth for all portfolio content.
+ * Identity values are filled (github: balajis-dev, linkedin: balaji-s-dev).
+ * Only the testimonials below still contain [[placeholders]] — the section
+ * stays hidden until real quotes replace them.
+ */
+
+export interface NavLink {
+  label: string
+  href: string
+}
+
+export interface SkillGroup {
+  category: string
+  items: string[]
+}
+
+export interface ExperienceModule {
+  name: string
+  bullets: string[]
+}
+
+export interface Experience {
+  title: string
+  company: string
+  period: string
+  summary: string
+  modules: ExperienceModule[]
+}
+
+export interface Project {
+  name: string
+  description: string
+  highlights: string[]
+  tags: string[]
+  github: string
+  live?: string
+  featured: boolean
+}
+
+export interface TimelineItem {
+  year: string
+  title: string
+  description: string
+}
+
+export interface Achievement {
+  title: string
+  detail: string
+}
+
+export interface Testimonial {
+  quote: string
+  author: string
+  role: string
+}
+
+export interface EducationItem {
+  degree: string
+  institution: string
+  year: string
+  note?: string
+}
+
+export const profile = {
+  name: 'Balaji S',
+  firstName: 'Balaji',
+  role: 'Full Stack Developer',
+  stack: 'Laravel · React · TypeScript · PostgreSQL',
+  tagline:
+    'I build data-heavy product features — reporting engines, dashboards, and CRMs — that business teams rely on every day.',
+  location: 'Madurai, Tamil Nadu, India',
+  email: 'barath19231@gmail.com',
+  phone: '+91 88381 87342',
+  githubUsername: 'balajis-dev',
+  github: 'https://github.com/balajis-dev',
+  linkedin: 'https://www.linkedin.com/in/balaji-s-dev',
+  resumeUrl: '/Balaji_S_Full_Stack_Developer.pdf',
+  yearsOfExperience: '2+',
+  openTo: 'Full Stack / Backend roles — product companies & MNCs',
+}
+
+export const navLinks: NavLink[] = [
+  { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Timeline', href: '#timeline' },
+  { label: 'Contact', href: '#contact' },
+]
+
+export const heroStats = [
+  { value: '2+', label: 'Years shipping product features' },
+  { value: '4', label: 'Major CRM modules built' },
+  { value: '10+', label: 'Chart types in my report engine' },
+]
+
+export const about = {
+  paragraphs: [
+    `I'm a full stack developer at a CRM product company, where I own one of the product's most complex surfaces: the Advanced Reporting module. That means everything from designing schemas and compiling user-defined reports into optimized SQL, to chart rendering, scheduled email/WhatsApp delivery, and exports that stay memory-stable over very large datasets.`,
+    `I work across the stack every day — Laravel and MySQL/PostgreSQL on the backend, and React 19 with TypeScript on the frontend, where I'm helping rebuild the product as a modern SPA. I've also built Google Maps integrations (territories, clustering, nearby search) and a real-estate unit inventory module.`,
+    `What I enjoy most is the intersection of data and product: taking a vague business question ("why did lead flow drop last quarter?") and shipping the tool that answers it.`,
+  ],
+}
+
+export const skillGroups: SkillGroup[] = [
+  {
+    category: 'Backend',
+    items: [
+      'PHP 8.x',
+      'Laravel 10–12',
+      'REST APIs',
+      'JWT Auth',
+      'Eloquent ORM',
+      'Livewire',
+      'Queues & Scheduler',
+      'Cron Jobs',
+    ],
+  },
+  {
+    category: 'Frontend',
+    items: [
+      'React 19',
+      'TypeScript',
+      'Vite',
+      'Tailwind CSS',
+      'TanStack Query',
+      'React Router',
+      'React Hook Form',
+      'Zod',
+      'Framer Motion',
+      'Chart.js / ApexCharts',
+    ],
+  },
+  {
+    category: 'Databases',
+    items: [
+      'MySQL',
+      'PostgreSQL',
+      'Schema design',
+      'Indexing & EXPLAIN',
+      'Query optimization',
+      'Large datasets',
+    ],
+  },
+  {
+    category: 'Tools & Practices',
+    items: [
+      'Git & GitHub',
+      'GitFlow',
+      'Postman',
+      'Docker (basics)',
+      'ESLint / Prettier',
+      'Agile / Scrum',
+      'Code review',
+    ],
+  },
+]
+
+export const experience: Experience[] = [
+  {
+    title: 'Software Developer (Full Stack)',
+    company: 'RSoft Technologies',
+    period: 'Jun 2024 — Present',
+    summary:
+      'Enterprise CRM product for the real estate domain, used daily by sales and marketing teams across client businesses.',
+    modules: [
+      {
+        name: 'Advanced Reports — module owner',
+        bullets: [
+          'Dynamic report builder: detail, summary and matrix reports with multi-level group-by and aggregate functions over any CRM module.',
+          'Filter engine with condition groups, saved filters, relative-date ranges and picklist-change tracking.',
+          'Chart builder with 10+ chart types, drill-down, and dashboard widget embedding.',
+          'Scheduled delivery (daily/weekly/monthly) by email and WhatsApp via queues and cron.',
+          'Excel/CSV/PDF exports over large datasets using chunked, streamed queries.',
+          'MySQL optimization: composite indexes, eager loading and query restructuring on high-volume tables.',
+        ],
+      },
+      {
+        name: 'CRM Map module',
+        bullets: [
+          'Google Maps integration: property pins, customer locations, marker clustering, nearby search, sales territories, distance calculations and live filters.',
+        ],
+      },
+      {
+        name: 'Unit Management module',
+        bullets: [
+          'Real-estate inventory: units, availability, booking status, pricing, floor plans and sales tracking.',
+        ],
+      },
+      {
+        name: 'Next-generation CRM (React + Laravel rebuild)',
+        bullets: [
+          'React 19 + TypeScript + Vite SPA over a Laravel 12 + PostgreSQL REST API with JWT auth.',
+          'Delivered: analytics dashboard, report builder UI, lead/customer/follow-up management, notifications, responsive UI.',
+        ],
+      },
+    ],
+  },
+]
+
+export const projects: Project[] = [
+  {
+    name: 'Advanced Report Builder',
+    description:
+      'Open-source dynamic reporting engine. A Laravel 12 API compiles a JSON report definition into optimized SQL; a React 19 builder UI handles grouping, aggregates, filters, chart preview, exports and scheduling.',
+    highlights: [
+      'JSON report definition → safe, optimized SQL compiler',
+      'Detail / summary / matrix reports with multi group-by',
+      'Chart builder with 10+ chart types',
+      'Queued exports (Excel/CSV/PDF) + email scheduling',
+    ],
+    tags: ['Laravel 12', 'React 19', 'TypeScript', 'MySQL', 'Chart.js', 'Tailwind'],
+    github: 'https://github.com/balajis-dev/advanced-report-builder',
+    live: undefined,
+    featured: true,
+  },
+  {
+    name: 'Modern CRM',
+    description:
+      'Full-stack CRM with leads, customers, follow-ups, analytics dashboard and notifications. Typed end-to-end: React 19 + TanStack Query + Zod on the client, Laravel 12 + PostgreSQL + JWT on the API.',
+    highlights: [
+      'JWT auth with refresh flow and role-based access',
+      'Server-driven data tables: filtering, sorting, pagination',
+      'Analytics dashboard with drill-down charts',
+      'Dark mode, fully responsive',
+    ],
+    tags: ['React 19', 'TanStack Query', 'Laravel 12', 'PostgreSQL', 'JWT', 'Zod'],
+    github: 'https://github.com/balajis-dev/modern-crm',
+    live: undefined,
+    featured: true,
+  },
+  {
+    name: 'Property Management System',
+    description:
+      'Real-estate property and unit inventory: availability, booking workflow, pricing, floor plans, and a Google-Maps view with clustering and territory filters.',
+    highlights: [],
+    tags: ['Laravel', 'React', 'Maps API', 'MySQL'],
+    github: 'https://github.com/balajis-dev/property-management-system',
+    featured: false,
+  },
+  {
+    name: 'React Admin Dashboard',
+    description:
+      'Production-grade admin template: auth, RBAC menus, data tables, charts, form patterns with React Hook Form + Zod, and a clean layout system.',
+    highlights: [],
+    tags: ['React 19', 'TypeScript', 'Tailwind', 'TanStack Query'],
+    github: 'https://github.com/balajis-dev/react-admin-dashboard',
+    featured: false,
+  },
+  {
+    name: 'React UI Library',
+    description:
+      'Typed, accessible component library — buttons, inputs, modals, tables, toasts — with docs pages. The design system behind my other projects.',
+    highlights: [],
+    tags: ['React 19', 'TypeScript', 'Tailwind', 'a11y'],
+    github: 'https://github.com/balajis-dev/react-ui-library',
+    featured: false,
+  },
+  {
+    name: 'Laravel API Template',
+    description:
+      'Opinionated Laravel 12 REST API starter: JWT auth, RBAC, API resources, form requests, service layer, Docker, Postman collection and CI-ready tests.',
+    highlights: [],
+    tags: ['Laravel 12', 'PHP 8.3', 'JWT', 'Docker'],
+    github: 'https://github.com/balajis-dev/laravel-api-template',
+    featured: false,
+  },
+]
+
+export const timeline: TimelineItem[] = [
+  {
+    year: '2022',
+    title: 'B.Sc. Computer Science',
+    description: 'Graduated from Vivekananda College, Madurai Kamaraj University.',
+  },
+  {
+    year: '2024',
+    title: 'MCA with Distinction',
+    description: 'Kongu Arts and Science College, Bharathiar University.',
+  },
+  {
+    year: '2024',
+    title: 'Joined CRM product company',
+    description: 'Started as a Laravel developer on an enterprise real-estate CRM.',
+  },
+  {
+    year: '2025',
+    title: 'Owned the Advanced Reports module',
+    description:
+      'Became the core developer for reporting: builder, charts, scheduling, exports, permissions.',
+  },
+  {
+    year: '2026',
+    title: 'Full stack on the next-gen CRM',
+    description:
+      'Building the React 19 + TypeScript + Laravel 12 + PostgreSQL rebuild of the product.',
+  },
+]
+
+export const achievements: Achievement[] = [
+  {
+    title: 'Report module ownership',
+    detail:
+      'Trusted with end-to-end ownership of the most data-intensive module in the product within my first year.',
+  },
+  {
+    title: 'First Prize — Technical Paper Presentations',
+    detail: 'National and inter-college level competitions.',
+  },
+  {
+    title: 'Department Rank Holder',
+    detail: 'Recognized on College Day for academic performance.',
+  },
+]
+
+/** Placeholder content — replace with real quotes (ask a lead/senior at work, or colleagues). */
+export const testimonials: Testimonial[] = [
+  {
+    quote:
+      '[[Placeholder — e.g. "Balaji took full ownership of our reporting module and consistently shipped features our customers asked for."]]',
+    author: '[[Name]]',
+    role: '[[Title, Company]]',
+  },
+  {
+    quote: '[[Placeholder — a second short quote from a colleague or mentor.]]',
+    author: '[[Name]]',
+    role: '[[Title, Company]]',
+  },
+]
+
+export const education: EducationItem[] = [
+  {
+    degree: 'MCA — Master of Computer Applications',
+    institution: 'Kongu Arts and Science College, Bharathiar University',
+    year: '2024',
+    note: 'Distinction',
+  },
+  {
+    degree: 'B.Sc. Computer Science',
+    institution: 'Vivekananda College, Madurai Kamaraj University',
+    year: '2022',
+  },
+]
+
+export const certifications = [
+  'JavaScript — Great Learning',
+  'Software Testing — NPTEL',
+  'Certificate Course — IGNOU',
+]

@@ -35,6 +35,10 @@ export interface Project {
   tags: string[]
   /** Omit until the repo is actually public — a dead link is worse than a badge. */
   github?: string
+  /** True while the public repo is still docs/roadmap-stage — keeps the "In development" badge visible even with a repo link. */
+  inDevelopment?: boolean
+  /** Real screenshot of the running app, served from /public. Omit until the app exists. */
+  image?: string
   live?: string
   featured: boolean
 }
@@ -204,14 +208,16 @@ export const projects: Project[] = [
   {
     name: 'Advanced Report Builder',
     description:
-      'Open-source dynamic reporting engine. A Laravel 12 API compiles a JSON report definition into optimized SQL; a React 19 builder UI handles grouping, aggregates, filters, chart preview, exports and scheduling.',
+      'Open-source reporting engine, built in public in vertical slices. A Laravel 12 REST API compiles JSON report definitions into safe, whitelist-validated SQL; a React 19 + TypeScript builder UI composes detail, summary and matrix (pivot) reports with live preview, filters and saved reports.',
     highlights: [
-      'JSON report definition → safe, optimized SQL compiler',
-      'Detail / summary / matrix reports with multi group-by',
-      'Chart builder with 10+ chart types',
-      'Queued exports (Excel/CSV/PDF) + email scheduling',
+      'Report definition → SQL compiler with a whitelist security boundary, feature-tested against injection',
+      'Detail / summary / matrix (pivot) reports with row, column and grand totals',
+      'Live-preview builder with filter editor and a saved-report library',
+      'Stateless JWT auth; charts, exports and scheduling are next on the roadmap',
     ],
-    tags: ['Laravel 12', 'React 19', 'TypeScript', 'MySQL', 'Chart.js', 'Tailwind'],
+    tags: ['Laravel 12', 'React 19', 'TypeScript', 'PostgreSQL', 'Tailwind', 'JWT'],
+    github: 'https://github.com/balajis-dev5/advanced-report-builder',
+    image: '/projects/arb-builder.png',
     live: undefined,
     featured: true,
   },
@@ -226,6 +232,8 @@ export const projects: Project[] = [
       'Dark mode, fully responsive',
     ],
     tags: ['React 19', 'TanStack Query', 'Laravel 12', 'PostgreSQL', 'JWT', 'Zod'],
+    github: 'https://github.com/balajis-dev5/modern-crm',
+    inDevelopment: true,
     live: undefined,
     featured: true,
   },
@@ -235,6 +243,8 @@ export const projects: Project[] = [
       'Real-estate property and unit inventory: availability, booking workflow, pricing, floor plans, and a Google-Maps view with clustering and territory filters.',
     highlights: [],
     tags: ['Laravel', 'React', 'Maps API', 'MySQL'],
+    github: 'https://github.com/balajis-dev5/property-management-system',
+    inDevelopment: true,
     featured: false,
   },
   {
@@ -251,6 +261,8 @@ export const projects: Project[] = [
       'Typed, accessible component library — buttons, inputs, modals, tables, toasts — with docs pages. The design system behind my other projects.',
     highlights: [],
     tags: ['React 19', 'TypeScript', 'Tailwind', 'a11y'],
+    github: 'https://github.com/balajis-dev5/react-ui-library',
+    inDevelopment: true,
     featured: false,
   },
   {

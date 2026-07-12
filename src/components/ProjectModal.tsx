@@ -90,6 +90,15 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               </button>
             </div>
 
+            {/* Screenshot of the real running app (only present once the app exists) */}
+            {project.image && (
+              <img
+                src={project.image}
+                alt={`Screenshot of ${project.name} running`}
+                className="w-full border-b border-zinc-200 dark:border-zinc-800"
+              />
+            )}
+
             {/* Body */}
             <div className="space-y-6 px-6 py-6">
               <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
@@ -145,12 +154,18 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                   className="inline-flex items-center gap-2 rounded-lg bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
                 >
                   <Github size={16} aria-hidden="true" />
-                  View code
+                  {project.inDevelopment ? 'View repo & roadmap' : 'View code'}
                 </a>
               ) : (
                 <span className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-3 py-2.5 text-xs font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
                   <Hammer size={13} aria-hidden="true" />
                   Code being open-sourced
+                </span>
+              )}
+              {project.github && project.inDevelopment && (
+                <span className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-3 py-2.5 text-xs font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                  <Hammer size={13} aria-hidden="true" />
+                  Docs &amp; roadmap stage — code landing incrementally
                 </span>
               )}
               {project.live && (

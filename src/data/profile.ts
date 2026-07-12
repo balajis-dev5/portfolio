@@ -75,7 +75,7 @@ export const profile = {
   tagline:
     'I build data-heavy product features — reporting engines, dashboards, and CRMs — that business teams rely on every day.',
   location: 'Madurai, Tamil Nadu, India',
-  email: 'balajis-dev5@gmail.com',
+  email: 'barath19231@gmail.com',
   phone: '+91 88381 87342',
   githubUsername: 'balajis-dev5',
   github: 'https://github.com/balajis-dev5',

@@ -22,7 +22,7 @@ npm run preview   # preview the production build
 
 ## Before deploying — 5-minute checklist
 
-1. Identity values are **already filled**: GitHub `barath19231`, LinkedIn `linkedin.com/in/balaji-s-dev`, URL `https://portfolio-weld-mu-2hvafer4c2.vercel.app`, company `RSoft Technologies`. If any of these ends up different (e.g. username taken), search-replace the old value across the repo.
+1. Identity values are **already filled**: GitHub `balajis-dev5`, LinkedIn `linkedin.com/in/balaji-s-72245b244`, URL `https://portfolio-weld-mu-2hvafer4c2.vercel.app`, company `RSoft Technologies`. If any of these ends up different (e.g. username taken), search-replace the old value across the repo.
 2. `public/Balaji_S_Full_Stack_Developer.pdf` is already in place (generated from the resume suite). Add `og-image.png` (1200×630) when ready — see `../assets/ASSETS.md`.
 3. Optionally replace testimonial placeholders in `profile.ts` (section stays hidden until you do).
 

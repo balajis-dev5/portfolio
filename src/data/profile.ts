@@ -1,6 +1,6 @@
 /**
  * Single source of truth for all portfolio content.
- * Identity values are filled (github: barath19231, linkedin: balaji-s-dev).
+ * Identity values are filled (github: balajis-dev5, linkedin: balaji-s-72245b244).
  * Only the testimonials below still contain [[placeholders]] — the section
  * stays hidden until real quotes replace them.
  */
@@ -71,11 +71,11 @@ export const profile = {
   tagline:
     'I build data-heavy product features — reporting engines, dashboards, and CRMs — that business teams rely on every day.',
   location: 'Madurai, Tamil Nadu, India',
-  email: 'barath19231@gmail.com',
+  email: 'balajis-dev5@gmail.com',
   phone: '+91 88381 87342',
-  githubUsername: 'barath19231',
-  github: 'https://github.com/barath19231',
-  linkedin: 'https://www.linkedin.com/in/balaji-s-dev',
+  githubUsername: 'balajis-dev5',
+  github: 'https://github.com/balajis-dev5',
+  linkedin: 'https://www.linkedin.com/in/balaji-s-72245b244',
   resumeUrl: '/Balaji_S_Full_Stack_Developer.pdf',
   yearsOfExperience: '2+',
   openTo: 'Full Stack / Backend roles — product companies & MNCs',

@@ -1,3 +1,4 @@
+import { motion, useScroll, useSpring } from 'framer-motion'
 import { Download, Menu, Moon, Sun, X } from 'lucide-react'
 import { useState } from 'react'
 import { navLinks, profile } from '../data/profile'
@@ -10,9 +11,17 @@ interface NavbarProps {
 
 export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
   const [open, setOpen] = useState(false)
+  const { scrollYProgress } = useScroll()
+  const progress = useSpring(scrollYProgress, { stiffness: 140, damping: 28, mass: 0.4 })
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/70 bg-white/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80">
+      {/* Reading progress along the top edge */}
+      <motion.div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 h-0.5 origin-left bg-gradient-to-r from-indigo-500 via-violet-500 to-sky-400"
+        style={{ scaleX: progress }}
+      />
       <nav
         className="mx-auto flex h-16 max-w-5xl items-center justify-between px-5 sm:px-8"
         aria-label="Main navigation"
@@ -21,7 +30,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
           href="#top"
           className="flex items-center gap-2 text-base font-bold text-zinc-900 dark:text-white"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600 text-sm font-bold text-white">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-600 to-violet-600 text-sm font-bold text-white shadow-md shadow-indigo-600/30">
             B
           </span>
           {profile.name}
@@ -40,7 +49,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
           <a
             href={profile.resumeUrl}
             download
-            className="ml-2 inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3.5 py-2 text-sm font-semibold text-white transition-colors hover:bg-indigo-500"
+            className="btn-gradient ml-2 inline-flex items-center gap-1.5 rounded-lg px-3.5 py-2 text-sm font-semibold text-white"
           >
             <Download size={15} aria-hidden="true" />
             Resume

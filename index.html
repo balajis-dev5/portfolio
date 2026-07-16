@@ -51,10 +51,10 @@
     />
 
     <script>
-      // Set theme before first paint to avoid flash
+      // Set theme before first paint to avoid flash.
+      // Dark is the default first impression; an explicit visitor choice wins.
       const stored = localStorage.getItem('theme')
-      const dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
-      if (dark) document.documentElement.classList.add('dark')
+      if (stored !== 'light') document.documentElement.classList.add('dark')
     </script>
   </head>
   <body>

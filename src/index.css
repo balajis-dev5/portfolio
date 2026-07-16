@@ -16,6 +16,17 @@ html {
 
 body {
   @apply bg-white text-zinc-800 antialiased dark:bg-zinc-950 dark:text-zinc-200;
+  /* Soft tint so light mode never reads as a stark white sheet */
+  background-image:
+    radial-gradient(60rem 32rem at 85% -10%, rgb(99 102 241 / 0.07), transparent 60%),
+    radial-gradient(50rem 28rem at -10% 30%, rgb(56 189 248 / 0.05), transparent 60%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-image:
+    radial-gradient(60rem 32rem at 85% -10%, rgb(99 102 241 / 0.12), transparent 60%),
+    radial-gradient(50rem 28rem at -10% 30%, rgb(56 189 248 / 0.06), transparent 60%);
 }
 
 ::selection {
@@ -42,4 +53,106 @@ body {
 .bg-dots {
   background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
   background-size: 24px 24px;
+}
+
+/* ---- Dynamic visual system ---------------------------------------- */
+
+/* Aurora: large blurred color fields that drift very slowly behind the hero.
+   Pure CSS transforms — GPU-composited, and switched off for reduced motion. */
+.aurora {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.5;
+  will-change: transform;
+}
+.aurora-a {
+  background: radial-gradient(circle at 30% 30%, rgb(99 102 241 / 0.55), transparent 65%);
+  animation: aurora-a 18s ease-in-out infinite alternate;
+}
+.aurora-b {
+  background: radial-gradient(circle at 60% 40%, rgb(139 92 246 / 0.45), transparent 65%);
+  animation: aurora-b 22s ease-in-out infinite alternate;
+}
+.aurora-c {
+  background: radial-gradient(circle at 50% 50%, rgb(56 189 248 / 0.35), transparent 65%);
+  animation: aurora-c 26s ease-in-out infinite alternate;
+}
+@keyframes aurora-a {
+  from { transform: translate3d(-6%, -4%, 0) scale(1); }
+  to   { transform: translate3d(8%, 6%, 0) scale(1.15); }
+}
+@keyframes aurora-b {
+  from { transform: translate3d(6%, 2%, 0) scale(1.1); }
+  to   { transform: translate3d(-8%, -6%, 0) scale(0.95); }
+}
+@keyframes aurora-c {
+  from { transform: translate3d(-2%, 6%, 0) scale(0.95); }
+  to   { transform: translate3d(4%, -6%, 0) scale(1.12); }
+}
+
+/* Name / accent text: animated indigo→violet→sky gradient sweep */
+.text-gradient {
+  background-image: linear-gradient(
+    100deg,
+    #4f46e5 0%,
+    #8b5cf6 30%,
+    #38bdf8 55%,
+    #8b5cf6 80%,
+    #4f46e5 100%
+  );
+  background-size: 220% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-sweep 7s linear infinite;
+}
+@keyframes gradient-sweep {
+  from { background-position: 0% 50%; }
+  to   { background-position: 220% 50%; }
+}
+
+/* Primary CTA: gradient fill that glides on hover */
+.btn-gradient {
+  background-image: linear-gradient(115deg, #4f46e5, #7c3aed 50%, #4f46e5);
+  background-size: 200% 100%;
+  transition: background-position 0.45s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 18px rgb(99 102 241 / 0.35);
+}
+.btn-gradient:hover {
+  background-position: 100% 0;
+  box-shadow: 0 6px 24px rgb(124 58 237 / 0.45);
+  transform: translateY(-1px);
+}
+
+/* Card hover: lift + soft indigo glow (works over both themes) */
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 32px rgb(99 102 241 / 0.16),
+    0 2px 8px rgb(0 0 0 / 0.08);
+}
+.dark .card-lift:hover {
+  box-shadow:
+    0 12px 32px rgb(99 102 241 / 0.22),
+    0 2px 8px rgb(0 0 0 / 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-a,
+  .aurora-b,
+  .aurora-c,
+  .text-gradient {
+    animation: none;
+  }
+  .card-lift,
+  .card-lift:hover,
+  .btn-gradient,
+  .btn-gradient:hover {
+    transform: none;
+    transition: none;
+  }
 }

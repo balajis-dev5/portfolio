@@ -41,7 +41,7 @@ export default function Projects() {
               role="button"
               tabIndex={0}
               aria-label={`View details for ${project.name}`}
-              className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition-all hover:-translate-y-0.5 hover:border-indigo-300 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-700/60 dark:hover:shadow-indigo-950/40"
+              className="group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
             >
               {project.image && (
                 <div className="overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
@@ -148,7 +148,7 @@ export default function Projects() {
               role="button"
               tabIndex={0}
               aria-label={`View details for ${project.name}`}
-              className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition-all hover:-translate-y-0.5 hover:border-indigo-300 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-700/60 dark:hover:shadow-indigo-950/40"
+              className="group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
             >
               {project.image && (
                 <div className="overflow-hidden border-b border-zinc-200 dark:border-zinc-800">

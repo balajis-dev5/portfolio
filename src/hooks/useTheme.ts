@@ -3,9 +3,11 @@ import { useCallback, useEffect, useState } from 'react'
 export type Theme = 'light' | 'dark'
 
 function getInitialTheme(): Theme {
+  // Dark by default — it's the designed first impression. A visitor's
+  // explicit toggle choice is stored and wins on return visits.
   const stored = localStorage.getItem('theme')
   if (stored === 'light' || stored === 'dark') return stored
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  return 'dark'
 }
 
 export function useTheme() {

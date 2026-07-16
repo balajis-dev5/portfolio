@@ -62,7 +62,7 @@ export default function Contact() {
         <Reveal delay={0.2}>
           <a
             href={`mailto:${profile.email}?subject=Opportunity%20for%20${encodeURIComponent(profile.name)}`}
-            className="mt-8 inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-500"
+            className="btn-gradient mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold text-white"
           >
             <Mail size={16} aria-hidden="true" />
             Say hello

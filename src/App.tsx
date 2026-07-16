@@ -45,7 +45,7 @@ export default function App() {
           <a
             href={profile.resumeUrl}
             download
-            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-500"
+            className="btn-gradient mt-6 inline-flex items-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold text-white"
           >
             <Download size={16} aria-hidden="true" />
             Download resume

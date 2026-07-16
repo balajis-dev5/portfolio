@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="React UI Library cover art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#0f1f2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- floating component specimens -->
+  <g transform="translate(640,100)">
+    <rect x="0" y="0" width="480" height="470" rx="18" fill="#0e1626" stroke="#22314e" stroke-width="2"/>
+    <!-- button -->
+    <rect x="40" y="44" width="170" height="52" rx="12" fill="url(#accent)"/>
+    <rect x="70" y="64" width="110" height="12" rx="6" fill="#08111f" opacity="0.7"/>
+    <!-- secondary button -->
+    <rect x="236" y="44" width="150" height="52" rx="12" fill="none" stroke="#33507a" stroke-width="2.5"/>
+    <rect x="262" y="64" width="98" height="12" rx="6" fill="#4a688f"/>
+    <!-- input -->
+    <rect x="40" y="130" width="346" height="52" rx="12" fill="#0b1322" stroke="#33507a" stroke-width="2"/>
+    <rect x="60" y="150" width="140" height="12" rx="6" fill="#2c4265"/>
+    <!-- toggle -->
+    <rect x="40" y="216" width="88" height="44" rx="22" fill="#164e63"/>
+    <circle cx="106" cy="238" r="16" fill="#22d3ee"/>
+    <!-- checkbox + radio -->
+    <rect x="152" y="222" width="32" height="32" rx="8" fill="#0b1322" stroke="#33507a" stroke-width="2.5"/>
+    <path d="M160 238 l7 8 14 -16" stroke="#22d3ee" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="226" cy="238" r="16" fill="#0b1322" stroke="#33507a" stroke-width="2.5"/>
+    <circle cx="226" cy="238" r="7" fill="#6366f1"/>
+    <!-- modal specimen -->
+    <rect x="40" y="296" width="346" height="140" rx="14" fill="#101b30" stroke="#2b4066" stroke-width="2"/>
+    <rect x="62" y="318" width="130" height="12" rx="6" fill="#51719c"/>
+    <line x1="358" y1="322" x2="372" y2="336" stroke="#51719c" stroke-width="3" stroke-linecap="round"/>
+    <line x1="372" y1="322" x2="358" y2="336" stroke="#51719c" stroke-width="3" stroke-linecap="round"/>
+    <rect x="62" y="348" width="240" height="9" rx="4" fill="#243a5c"/>
+    <rect x="62" y="368" width="200" height="9" rx="4" fill="#243a5c"/>
+    <rect x="252" y="396" width="120" height="30" rx="10" fill="#155e75"/>
+  </g>
+
+  <!-- title block -->
+  <g font-family="ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif">
+    <rect x="80" y="196" width="56" height="6" rx="3" fill="url(#accent)"/>
+    <text x="80" y="268" font-size="58" font-weight="800" fill="#f4f4f5">React UI Library</text>
+    <text x="80" y="318" font-size="26" fill="#8fa8c0">Typed, accessible components —</text>
+    <text x="80" y="356" font-size="26" fill="#8fa8c0">the design system behind my projects</text>
+    <g font-size="20" font-weight="600" fill="#a5f3fc">
+      <rect x="80" y="402" width="128" height="40" rx="20" fill="#11293a"/>
+      <text x="144" y="428" text-anchor="middle">React 19</text>
+      <rect x="222" y="402" width="150" height="40" rx="20" fill="#11293a"/>
+      <text x="297" y="428" text-anchor="middle">TypeScript</text>
+      <rect x="386" y="402" width="100" height="40" rx="20" fill="#11293a"/>
+      <text x="436" y="428" text-anchor="middle">a11y</text>
+    </g>
+  </g>
+</svg>

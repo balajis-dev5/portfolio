@@ -28,6 +28,11 @@ export interface Experience {
   modules: ExperienceModule[]
 }
 
+export interface ProjectImage {
+  src: string
+  caption: string
+}
+
 export interface Project {
   name: string
   description: string
@@ -37,8 +42,13 @@ export interface Project {
   github?: string
   /** True while the public repo is still docs/roadmap-stage — keeps the "In development" badge visible even with a repo link. */
   inDevelopment?: boolean
-  /** Real screenshot of the running app, served from /public. Omit until the app exists. */
+  /**
+   * Card cover, served from /public. Real app screenshot when the app runs;
+   * designed cover art (covers/*.svg) for docs/roadmap-stage projects.
+   */
   image?: string
+  /** Extra captioned screenshots shown as a gallery in the project modal. */
+  images?: ProjectImage[]
   live?: string
   featured: boolean
 }
@@ -208,17 +218,35 @@ export const projects: Project[] = [
   {
     name: 'Advanced Report Builder',
     description:
-      'Open-source reporting engine, built in public in vertical slices. A Laravel 12 REST API compiles JSON report definitions into safe, whitelist-validated SQL; a React 19 + TypeScript builder UI composes detail, summary and matrix (pivot) reports with live preview, filters and saved reports.',
+      'Open-source reporting engine, built in public in vertical slices — five shipped. A Laravel 12 REST API compiles JSON report definitions into safe, whitelist-validated SQL; a React 19 + TypeScript builder composes detail, summary and matrix (pivot) reports with live preview — then exports, shares and delivers them on a schedule.',
     highlights: [
       'Report definition → SQL compiler with a whitelist security boundary, feature-tested against injection',
-      'Detail / summary / matrix (pivot) reports with row, column and grand totals',
-      'Live-preview builder with drag & drop fields, filter editor and a saved-report library',
-      'Dependency-free SVG charts (bar / line / donut) on any report, plus live dashboard widgets',
-      'Stateless JWT auth; exports and scheduling are next on the roadmap',
+      'Drag & drop builder with live preview, filters, saved reports and a Table/Chart toggle',
+      'Dependency-free SVG charts (bar / line / donut) plus live dashboard widgets',
+      'CSV / Excel / PDF exports of live previews and saved reports — the XLSX writer is hand-built, no heavyweight deps',
+      'Per-user sharing (view/edit) enforced server-side; scheduled deliveries with run-now and a stored history',
     ],
     tags: ['Laravel 12', 'React 19', 'TypeScript', 'PostgreSQL', 'Tailwind', 'JWT'],
     github: 'https://github.com/balajis-dev5/advanced-report-builder',
     image: '/projects/arb-dashboard.png',
+    images: [
+      {
+        src: '/projects/arb-export.png',
+        caption: 'The builder: live summary result with the CSV / Excel / PDF export menu open',
+      },
+      {
+        src: '/projects/arb-share.png',
+        caption: 'Sharing a report — per-user view/edit grants, managed by the owner',
+      },
+      {
+        src: '/projects/arb-schedule.png',
+        caption: 'Scheduled deliveries: daily/weekly/monthly, with an on-demand run',
+      },
+      {
+        src: '/projects/arb-reports.png',
+        caption: 'Report library with type badges and one-click export per report',
+      },
+    ],
     live: undefined,
     featured: true,
   },
@@ -235,6 +263,7 @@ export const projects: Project[] = [
     tags: ['React 19', 'TanStack Query', 'Laravel 12', 'PostgreSQL', 'JWT', 'Zod'],
     github: 'https://github.com/balajis-dev5/modern-crm',
     inDevelopment: true,
+    image: '/projects/covers/modern-crm.svg',
     live: undefined,
     featured: true,
   },
@@ -246,6 +275,7 @@ export const projects: Project[] = [
     tags: ['Laravel', 'React', 'Maps API', 'MySQL'],
     github: 'https://github.com/balajis-dev5/property-management-system',
     inDevelopment: true,
+    image: '/projects/covers/property-management.svg',
     featured: false,
   },
   {
@@ -254,6 +284,7 @@ export const projects: Project[] = [
       'Production-grade admin template: auth, RBAC menus, data tables, charts, form patterns with React Hook Form + Zod, and a clean layout system.',
     highlights: [],
     tags: ['React 19', 'TypeScript', 'Tailwind', 'TanStack Query'],
+    image: '/projects/covers/react-admin-dashboard.svg',
     featured: false,
   },
   {
@@ -264,6 +295,7 @@ export const projects: Project[] = [
     tags: ['React 19', 'TypeScript', 'Tailwind', 'a11y'],
     github: 'https://github.com/balajis-dev5/react-ui-library',
     inDevelopment: true,
+    image: '/projects/covers/react-ui-library.svg',
     featured: false,
   },
   {
@@ -272,6 +304,7 @@ export const projects: Project[] = [
       'Opinionated Laravel 12 REST API starter: JWT auth, RBAC, API resources, form requests, service layer, Docker, Postman collection and CI-ready tests.',
     highlights: [],
     tags: ['Laravel 12', 'PHP 8.3', 'JWT', 'Docker'],
+    image: '/projects/covers/laravel-api-template.svg',
     featured: false,
   },
 ]

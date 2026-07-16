@@ -90,11 +90,11 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               </button>
             </div>
 
-            {/* Screenshot of the real running app (only present once the app exists) */}
+            {/* Cover: real screenshot when the app runs, designed cover art otherwise */}
             {project.image && (
               <img
                 src={project.image}
-                alt={`Screenshot of ${project.name} running`}
+                alt={`${project.name} preview`}
                 className="w-full border-b border-zinc-200 dark:border-zinc-800"
               />
             )}
@@ -124,6 +124,27 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                       </li>
                     ))}
                   </ul>
+                </div>
+              )}
+
+              {project.images && project.images.length > 0 && (
+                <div>
+                  <h4 className="mb-3 text-sm font-semibold tracking-wide text-zinc-900 uppercase dark:text-zinc-200">
+                    Screens
+                  </h4>
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    {project.images.map((img) => (
+                      <figure
+                        key={img.src}
+                        className="overflow-hidden rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950"
+                      >
+                        <img src={img.src} alt={img.caption} loading="lazy" className="w-full" />
+                        <figcaption className="px-3 py-2 text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">
+                          {img.caption}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
                 </div>
               )}
 

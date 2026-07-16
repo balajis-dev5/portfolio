@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Property Management System cover art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#101c30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- map panel with roads, cluster circles and a pin -->
+  <g transform="translate(640,110)">
+    <rect x="0" y="0" width="480" height="450" rx="18" fill="#0f1830" stroke="#233052" stroke-width="2"/>
+    <g stroke="#1d2a4a" stroke-width="5" fill="none" opacity="0.9">
+      <path d="M0 120 C 140 100, 200 180, 480 150"/>
+      <path d="M60 0 C 90 160, 60 300, 120 450"/>
+      <path d="M0 330 C 180 300, 300 380, 480 340"/>
+      <path d="M300 0 C 280 120, 360 260, 330 450"/>
+    </g>
+    <circle cx="150" cy="210" r="46" fill="#38bdf8" opacity="0.15"/>
+    <circle cx="150" cy="210" r="26" fill="#0ea5e9" opacity="0.85"/>
+    <text x="150" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#eff6ff">12</text>
+    <circle cx="360" cy="300" r="38" fill="#818cf8" opacity="0.18"/>
+    <circle cx="360" cy="300" r="22" fill="#6366f1" opacity="0.9"/>
+    <text x="360" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#eef2ff">7</text>
+    <g transform="translate(240,70)">
+      <path d="M0 0 C -26 0 -40 18 -40 38 C -40 66 0 100 0 100 C 0 100 40 66 40 38 C 40 18 26 0 0 0 Z" fill="url(#accent)"/>
+      <circle cx="0" cy="38" r="15" fill="#0b0f1a"/>
+    </g>
+    <!-- unit blocks -->
+    <g transform="translate(36,360)">
+      <rect x="0" y="0" width="64" height="56" rx="8" fill="#13223f" stroke="#2c3f6b" stroke-width="1.5"/>
+      <rect x="76" y="0" width="64" height="56" rx="8" fill="#13223f" stroke="#2c3f6b" stroke-width="1.5"/>
+      <rect x="152" y="0" width="64" height="56" rx="8" fill="#1b3a2f" stroke="#2f6b52" stroke-width="1.5"/>
+      <rect x="14" y="16" width="36" height="8" rx="4" fill="#3b527f"/>
+      <rect x="90" y="16" width="36" height="8" rx="4" fill="#3b527f"/>
+      <rect x="166" y="16" width="36" height="8" rx="4" fill="#3f7f5f"/>
+      <rect x="14" y="34" width="24" height="8" rx="4" fill="#2c3f6b"/>
+      <rect x="90" y="34" width="24" height="8" rx="4" fill="#2c3f6b"/>
+      <rect x="166" y="34" width="24" height="8" rx="4" fill="#2f6b52"/>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <g font-family="ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif">
+    <rect x="80" y="176" width="56" height="6" rx="3" fill="url(#accent)"/>
+    <text x="80" y="250" font-size="58" font-weight="800" fill="#f4f4f5">Property Management</text>
+    <text x="80" y="322" font-size="58" font-weight="800" fill="#f4f4f5">System</text>
+    <text x="80" y="372" font-size="26" fill="#93a4c4">Units · bookings · territories on the map</text>
+    <g font-size="20" font-weight="600" fill="#bae6fd">
+      <rect x="80" y="416" width="120" height="40" rx="20" fill="#132743"/>
+      <text x="140" y="442" text-anchor="middle">Laravel</text>
+      <rect x="214" y="416" width="110" height="40" rx="20" fill="#132743"/>
+      <text x="269" y="442" text-anchor="middle">React</text>
+      <rect x="338" y="416" width="150" height="40" rx="20" fill="#132743"/>
+      <text x="413" y="442" text-anchor="middle">Maps API</text>
+    </g>
+  </g>
+</svg>

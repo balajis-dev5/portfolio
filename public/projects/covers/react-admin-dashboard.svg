@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="React Admin Dashboard cover art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- dashboard wireframe: charts -->
+  <g transform="translate(640,120)">
+    <rect x="0" y="0" width="480" height="430" rx="18" fill="#120f26" stroke="#2c2450" stroke-width="2"/>
+    <!-- bar chart -->
+    <g transform="translate(40,60)">
+      <rect x="0" y="120" width="34" height="80" rx="6" fill="#8b5cf6"/>
+      <rect x="48" y="80" width="34" height="120" rx="6" fill="#7c3aed"/>
+      <rect x="96" y="140" width="34" height="60" rx="6" fill="#8b5cf6"/>
+      <rect x="144" y="40" width="34" height="160" rx="6" fill="#a78bfa"/>
+      <line x1="-8" y1="200" x2="190" y2="200" stroke="#3b3266" stroke-width="2"/>
+    </g>
+    <!-- line chart -->
+    <g transform="translate(270,60)">
+      <polyline points="0,160 40,120 80,140 120,70 160,90" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="120" cy="70" r="8" fill="#ec4899"/>
+      <line x1="-8" y1="200" x2="170" y2="200" stroke="#3b3266" stroke-width="2"/>
+    </g>
+    <!-- donut -->
+    <g transform="translate(120,330)">
+      <circle cx="0" cy="0" r="56" fill="none" stroke="#2c2450" stroke-width="26"/>
+      <path d="M 0 -56 A 56 56 0 1 1 -53 18" fill="none" stroke="#8b5cf6" stroke-width="26" stroke-linecap="round"/>
+    </g>
+    <!-- stat rows -->
+    <g transform="translate(240,290)">
+      <rect x="0" y="0" width="200" height="12" rx="6" fill="#3b3266"/>
+      <rect x="0" y="34" width="150" height="12" rx="6" fill="#3b3266"/>
+      <rect x="0" y="68" width="180" height="12" rx="6" fill="#3b3266"/>
+      <rect x="0" y="102" width="120" height="12" rx="6" fill="#3b3266"/>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <g font-family="ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif">
+    <rect x="80" y="186" width="56" height="6" rx="3" fill="url(#accent)"/>
+    <text x="80" y="258" font-size="58" font-weight="800" fill="#f4f4f5">React Admin</text>
+    <text x="80" y="330" font-size="58" font-weight="800" fill="#f4f4f5">Dashboard</text>
+    <text x="80" y="380" font-size="26" fill="#a89fc8">Auth · RBAC menus · tables · charts</text>
+    <g font-size="20" font-weight="600" fill="#ddd6fe">
+      <rect x="80" y="424" width="128" height="40" rx="20" fill="#251b47"/>
+      <text x="144" y="450" text-anchor="middle">React 19</text>
+      <rect x="222" y="424" width="150" height="40" rx="20" fill="#251b47"/>
+      <text x="297" y="450" text-anchor="middle">TypeScript</text>
+      <rect x="386" y="424" width="130" height="40" rx="20" fill="#251b47"/>
+      <text x="451" y="450" text-anchor="middle">Tailwind</text>
+    </g>
+  </g>
+</svg>

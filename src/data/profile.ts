@@ -228,6 +228,7 @@ export const projects: Project[] = [
     ],
     tags: ['Laravel 12', 'React 19', 'TypeScript', 'PostgreSQL', 'Tailwind', 'JWT'],
     github: 'https://github.com/balajis-dev5/advanced-report-builder',
+    live: 'https://arb-web-balaji.onrender.com',
     image: '/projects/arb-dashboard.png',
     images: [
       {
@@ -247,7 +248,6 @@ export const projects: Project[] = [
         caption: 'Report library with type badges and one-click export per report',
       },
     ],
-    live: undefined,
     featured: true,
   },
   {

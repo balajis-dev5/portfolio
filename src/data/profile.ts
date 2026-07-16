@@ -165,7 +165,7 @@ export const skillGroups: SkillGroup[] = [
 export const experience: Experience[] = [
   {
     title: 'Software Developer (Full Stack)',
-    company: 'RSoft Technologies',
+    company: 'RSoft Technologies Pvt Ltd',
     period: 'Jun 2024 — Present',
     summary:
       'Enterprise CRM product for the real estate domain, used daily by sales and marketing teams across client businesses.',

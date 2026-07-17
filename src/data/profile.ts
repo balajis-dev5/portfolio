@@ -281,11 +281,16 @@ export const projects: Project[] = [
   {
     name: 'React Admin Dashboard',
     description:
-      'Production-grade admin template: auth, RBAC menus, data tables, charts, form patterns with React Hook Form + Zod, and a clean layout system.',
-    highlights: [],
-    tags: ['React 19', 'TypeScript', 'Tailwind', 'TanStack Query'],
+      'Production-grade admin template: command-palette app shell, URL-synced data tables with CSV export, and hand-rolled SVG charts on a colorblind-validated palette — no chart library.',
+    highlights: [
+      'One reusable DataTable<T>: search, filters, sort, pagination — all state in the URL, so filtered views are shareable links',
+      'Line/bar/donut charts in plain SVG with crosshair tooltips; separate light/dark palette steps, CVD-checked',
+    ],
+    tags: ['React 19', 'TypeScript', 'Tailwind v4', 'React Router'],
+    github: 'https://github.com/balajis-dev5/react-admin-dashboard',
+    live: 'https://balajis-dev5.github.io/react-admin-dashboard/',
     image: '/projects/covers/react-admin-dashboard.svg',
-    featured: false,
+    featured: true,
   },
   {
     name: 'React UI Library',

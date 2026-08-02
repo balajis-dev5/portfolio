@@ -16,8 +16,8 @@ function InDevelopmentBadge() {
 }
 
 export default function Projects() {
-  const featured = projects.filter((p) => p.featured)
-  const others = projects.filter((p) => !p.featured)
+  const featured = projects.filter((p) => p.featured && !p.hidden)
+  const others = projects.filter((p) => !p.featured && !p.hidden)
   const [active, setActive] = useState<Project | null>(null)
 
   return (

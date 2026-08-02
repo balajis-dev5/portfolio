@@ -51,6 +51,8 @@ export interface Project {
   images?: ProjectImage[]
   live?: string
   featured: boolean
+  /** Keeps a project in the content source without rendering its card. */
+  hidden?: boolean
 }
 
 export interface TimelineItem {
@@ -294,6 +296,7 @@ export const projects: Project[] = [
     live: 'https://balajis-dev5.github.io/react-admin-dashboard/',
     image: '/projects/covers/react-admin-dashboard.svg',
     featured: true,
+    hidden: true,
   },
   {
     name: 'React UI Library',

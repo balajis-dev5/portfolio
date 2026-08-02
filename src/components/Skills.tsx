@@ -13,7 +13,7 @@ export default function Skills() {
           const Icon = groupIcons[i % groupIcons.length]
           return (
             <Reveal key={group.category} delay={i * 0.06}>
-              <div className="h-full rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
+              <div className="skill-card h-full rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
                 <div className="flex items-center gap-3">
                   <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-600/10 text-indigo-600 dark:bg-indigo-500/15 dark:text-indigo-400">
                     <Icon size={18} aria-hidden="true" />

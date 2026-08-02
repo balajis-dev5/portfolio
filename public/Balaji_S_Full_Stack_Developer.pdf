@@ -1,80 +1,1085 @@
-%PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%PDF-1.3
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 7 0 R
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ 15 0 R 16 0 R 17 0 R 25 0 R 26 0 R ]
 >>
 endobj
 4 0 obj
-<<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
->>
+[ 23 0 R 24 0 R ]
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 9655
 >>
+stream
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.094118 .094118 .105882 rg
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 40 799.8898 Tm (BALAJI S) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 40 783.8898 Tm (Full Stack Developer - Laravel | React | TypeScript) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F1 8.3 Tf 9.96 TL ET
+BT 1 0 0 1 40 769.8898 Tm (Madurai, Tamil Nadu, India | +91 88381 87342 | barath19231@gmail.com) Tj T* ET
+BT 1 0 0 1 40 759.8898 Tm (github.com/balajis-dev5 | balajis-dev.vercel.app | linkedin.com/in/balaji-s-72245b244) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 739.8898 m 555.2756 739.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 727.8898 Tm (PROFESSIONAL SUMMARY) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 40 715.8898 Tm (Full Stack Developer with 2+ years of experience building features for a production multi-tenant real-estate CRM. Core developer of an) Tj T* ET
+BT 1 0 0 1 40 704.8898 Tm (Advanced Reporting module and contributor to a React 19, TypeScript, Laravel and PostgreSQL CRM rebuild. Experienced in SQL) Tj T* ET
+BT 1 0 0 1 40 693.8898 Tm (optimization, REST APIs, and AI-assisted Playwright MCP end-to-end testing in isolated sandbox environments.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 672.8898 m 555.2756 672.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 660.8898 Tm (TECHNICAL SKILLS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 648.8898 Tm (Backend:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 648.8898 Tm (PHP 8.x, Laravel 10-12, REST APIs, JWT, Livewire, Eloquent, Queues, Cron Scheduling) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 637.8898 Tm (Frontend:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 637.8898 Tm (React 19, TypeScript, JavaScript, Vite, Tailwind CSS, TanStack Query, React Hook Form, Zod, Chart.js) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 626.8898 Tm (Databases:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 626.8898 Tm (MySQL, PostgreSQL, schema and index design, query optimization, large datasets) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 615.8898 Tm (Testing:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 615.8898 Tm (Playwright MCP, TypeScript, AI-assisted end-to-end testing, functional testing, sandbox environments) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 604.8898 Tm (Tools:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 604.8898 Tm (Git, GitHub \(GitFlow\), Postman, Docker \(basics\), ESLint, Prettier, Agile, Scrum) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 585.8898 m 555.2756 585.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 573.8898 Tm (PROFESSIONAL EXPERIENCE) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 40 561.8898 Tm (Software Developer \(Full Stack\) - RSoft Technologies Pvt Ltd) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 484.304 561.8898 Tm (Jun 2024 - Present) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 40 550.8898 Tm (Enterprise CRM product \(real estate\)) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 539.8898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 539.8898 Tm (Core developer of the Advanced Reports module: dynamic detail, summary and matrix reporting with multi-level group-by, aggregates and) Tj T* ET
+BT 1 0 0 1 51 529.5898 Tm (10+ chart types.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 517.7898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 517.7898 Tm (Built filters, saved reports, relative-date ranges, scheduling and automated email/WhatsApp delivery with Laravel Scheduler, queues and) Tj T* ET
+BT 1 0 0 1 51 507.4898 Tm (cron.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 495.6898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 495.6898 Tm (Developed Excel, CSV and PDF exports for large datasets using chunked queries and streamed downloads; optimized heavy MySQL) Tj T* ET
+BT 1 0 0 1 51 485.3898 Tm (reports with composite indexes, eager loading and EXPLAIN-verified query changes.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 473.5898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 473.5898 Tm (Built the Call Block permission flow: administrators configure access in Profile Settings and Module Privileges, while Leads shows or hides) Tj T* ET
+BT 1 0 0 1 51 463.2898 Tm (phone call actions for each user permission.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 451.4898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 451.4898 Tm (Developed AI-assisted Playwright MCP tests in TypeScript in isolated sandbox environments, covering login, privilege setup and) Tj T* ET
+BT 1 0 0 1 51 441.1898 Tm (permission-driven Leads UI behaviour; reused the workflow for other CRM features.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 429.3898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 429.3898 Tm (Built CRM Map functionality \(property pins, clustering, nearby search and sales territories\), Unit Management inventory, and role-based) Tj T* ET
+BT 1 0 0 1 51 419.0898 Tm (report sharing.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 407.2898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 407.2898 Tm (Contributing to the next-generation CRM: React 19 + TypeScript + Vite SPA over a Laravel 12 + PostgreSQL REST API for dashboard,) Tj T* ET
+BT 1 0 0 1 51 396.9898 Tm (reports, leads, customers and follow-ups.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 377.1898 m 555.2756 377.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 365.1898 Tm (PROJECTS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 353.1898 Tm (Advanced Report Builder:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 143.4266 353.1898 Tm (github.com/balajis-dev5/advanced-report-builder - Laravel 12 API that compiles JSON report definitions into) Tj T* ET
+BT 1 0 0 1 143.4266 343.1898 Tm (whitelist-validated SQL; React 19 builder with preview, charts, export, sharing and scheduled deliveries.) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 332.1898 Tm (Modern CRM:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 95.5714 332.1898 Tm (github.com/balajis-dev5/modern-crm - Full-stack CRM with a kanban lead pipeline, customers, follow-ups, analytics, JWT) Tj T* ET
+BT 1 0 0 1 95.5714 322.1898 Tm (refresh rotation and 30 PHPUnit tests.) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 311.1898 Tm (Portfolio:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 78.7204 311.1898 Tm (balajis-dev.vercel.app - React 19, Vite and Tailwind CSS v4 portfolio with light/dark mode, SEO and accessibility-first design.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 292.1898 m 555.2756 292.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 280.1898 Tm (EDUCATION) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 268.1898 Tm (MCA \(Distinction\) - Kongu Arts and Science College, Bharathiar University, 2024) Tj T* ET
+BT 1 0 0 1 40 258.1898 Tm (B.Sc. Computer Science - Vivekananda College, Madurai Kamaraj University, 2022) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 240.1898 m 555.2756 240.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 228.1898 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 40 216.1898 Tm (JavaScript - Great Learning | Software Testing - NPTEL | Certificate Course - IGNOU) Tj T* ET
+BT 1 0 0 1 40 206.1898 Tm (First Prize - National and Inter-College Technical Paper Presentations | Department Rank Holder) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+36 301 524 73 re
+f*
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 365 Tm
+(Advanced Report Builder\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 143.4266 365 Tm
+(Private project \055 in progress\056 Reporting engine built with Laravel 12 and React 19\073 includes preview\054) Tj
+T*
+ET
+BT
+1 0 0 1 40 355 Tm
+(charts\054 exports\054 sharing and scheduled deliveries\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 337 Tm
+(Modern CRM\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 95.5714 337 Tm
+(Private project \055 in progress\056 Full\055stack CRM with a kanban lead pipeline\054 customers\054 follow\055ups\054 analytics\054 JWT) Tj
+T*
+ET
+BT
+1 0 0 1 40 327 Tm
+(refresh rotation and 30 PHPUnit tests\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 309 Tm
+(Portfolio\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 78.7204 309 Tm
+(balajis\055dev\056vercel\056app \055 React 19\054 Vite and Tailwind CSS v4 portfolio with light\057dark mode\054 SEO and accessibility\055first) Tj
+T*
+ET
+BT
+1 0 0 1 40 299 Tm
+(design\056) Tj
+T*
+ET
+Q
+
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/Length 835
 >>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+36 301 524 73 re
+f*
+0.31 0.27 0.9 rg
+BT
+/F2-1 9.3 Tf
+11.16 TL
+ET
+BT
+1 0 0 1 40 364 Tm
+(PROJECTS) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 346 Tm
+(Advanced Report Builder\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 143.4266 346 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 329 Tm
+(Modern CRM\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 95.5714 329 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 312 Tm
+(Portfolio\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 78.7204 312 Tm
+(balajis\055dev\056vercel\056app \055 React 19\054 Vite and Tailwind CSS v4\056) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260802205526+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20260802205526+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (Balaji S - Full Stack Developer Resume) /Trapped /False
+/F1 8 0 R
+/F1-0 9 0 R
+/F1-1 10 0 R
+/F1-2 21 0 R
+/F2 11 0 R
+/F2-0 12 0 R
+/F2-1 13 0 R
+/F2-2 22 0 R
+/F3 14 0 R
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3120
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 300 760 435 773 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (mailto\072barath19231\100gmail\056com)
+>>
+/P 3 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 40 749 144 762 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057balajis\055dev5)
+>>
+/P 3 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 259 749 433 762 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\057balaji\055s\05572245b244)
+>>
+/P 3 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 85 304 190 320 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057balajis\055dev\056vercel\056app)
+>>
+/P 3 0 R
+>>
+endobj
+19 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 148 749 255 762 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057balajis\055dev\056vercel\056app)
+>>
+/P 3 0 R
+>>
+endobj
+20 0 obj
+<<
+/Author (anonymous)
+/CreationDate (D\07220260802205526\05305\04700\047)
+/Creator (anonymous)
+/Keywords ()
+/ModDate (D\07220260802205526\05305\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (unspecified)
+/Title (Balaji S \055 Full Stack Developer Resume)
+/Trapped /False
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Length 10495
 >>
 stream
-Gau0Ehfmd8&q9:V0i*/MXmOi^#1NITKTLppP0cI@n*\;UYQmuL9<KO-\0le(*m+=6Bp()]I:&/q+O,/FR8;_!!q=$]_#@#KJ?p\P\-O2_@60/dnfjH]?nd#hq;!G)'%m3or&@87OGc&@8I2#.Q@ujRB@H7N!CT+n\m6s\\d;&OG^J!\of`mpnd_PS@JWd3IEV(+IKX!0M;eNJUmq.]DJf-`2m1@J#e_X3hF,dQR(+O^K8Cr>4e1O>R4(m`$R6k;$5ktC/Ws)N,>:$":/XXkIH4*>`9f/sI`LiOh:fIS5iT212dNWAIbpK9m<u0/<_>\!R$*sp\0bAC^lW2n^a$M\#*:+4,_2]>MF)Q@)3I<?K5T<KrjBfRAR6kWRWhOY`AL9rWgDhkI/h*C0_1ba2oAX32r/uU<[^mW*[qG@"@i2MAsD%=P],0ab3ajj'[OWEqDCsUTAB]W!:)T!HIUYpPX?G2?J(+hLM%#B4%Qt`%"l>'G!UL5%I,SeFq-/g^:h&o9I@ZHleVmo?a$VY\,WW.r/8cV?rj8gHi=DP'u[jXXYnX%#iEN(M,YV[J.DfUMEF=pQ'>jE049f.QP(%WK`hI2'Npi=.QHK8e'uph$.g;^0Gg!$)PMY-j[!6EKPYR"b^o8Mo>-It^@niIi@/AXMhR8H30B-#A-dj$O:&-:SX!ALciV:s."\U#.gous1hOj3.(t^%q(a_.JOKBU*XqbGRfVV)q(d9D_03:gVkVNpVgf9l"UAoMP:?.D6fhE[]qJ)`U.So"@n&@l8Jb#/=8aircWi&,j;DW1p;JEbWWXR/gPYK:-6<0_MFt^+jB?i,k&J!HrfkJ#B?fLW]Bp\L0cfm>YD7Oi`4lgQUEb*_-2T#q:_?SQHo?]5;,SWHP27G05+Yk&Y?4>Y@gh>?0dPVn+aF.H%Dj?C5Q<H\?pn)+V@jmd0_(o+Xr[:8@Yr6Y^(_P6kn:=c;8-^%*3C-1>Y)\RoC8cKGeUIIP82dLrJbPK-Nn!ratr6W-KYuFLuq?eEoV!%o2:Bk\.CE>i'/E,TYDaMHf%i0!=IQdn'?h;1SR]'*20s'X3K_KaJfc1""ISc:+R,VT&Bc^W9AgpnABn]Nk'cS\Nn5l-44n5Z)H.O[%a%E,>kph9QeAn;l@R+3RE>&amFpOf\tM)ACt^Gl:9-!#hF*heG&u2[0*&"^+<o9B0KTTZ+bQdAPQ"1"6UlA7gXBXB11-HRK!^C,AO/g/5^2?dXg8,13?oeatc3S@#1$AVh8FXXI4\am^-:33.jH9KA5AC\j&.\_sURa4>1[5G&T,o&TbW4&o7(#Y,6O5hLQ'Dk"@DIFNF\"$]5;2.h*_oSLC7?<F/8X[J]7@]?_dYcjq@?%@RY".Dib%8X4#9X7eNU*QJ8b;&5<EX29$p%IW'kI0Ps#]6e`o&!M7HX6P#Qo1`,q'?S8,HYNl+gDYAbOE#6PpWnFh0+je37CAD<+!KBXP1(+#e:]R^<12o;DCdO*6qd@VEj%-u'!CjX1DX@A79R.,N<<^rOLQDOQ!*sr5W#Wu>qb'F)YibE2$Y,b9nE>&LcZd:6-&<h?1G)dI9'7C@8<4[W=0rR0\_=U3?XFr9ipOj7e'-g(InA%^$r:H-D_Kge[B-p_@M,IM,q<aJ.*<$RH)WuIODV5ZH4fV%kFPaO1=*;U7JWi'YMgI8);g5s%Qocg3^kA)%7QaA.J5Zhl<j@r5(:$2Q9F>FfZ=N<$ocPZ8A,V'c2VNbX/-POrQ:!`0rJJ1A0BsG$kMI,c_AViUUGkUEoP:3sW6V=&>_;08-&<.rf&Q8$YAd`m,(f_4TabDg:ZP:sqA[HFGUD@Bu\3Qo_?:fej4;IIF0S%--sd@rTFUH4L2%S18*=iAhS;O$L"@EiQJl>"E4NeN$p"&qQi-.V7>IYnV9%&16O9kDK\QX/`oT9=gi+D(2TRk$'&UR0'c1CB[&AP%Ig_5u/J<\%H\CE3U)s+Z7OXX0/HR6BWsp<%)P-2iC3H*6PR$7-]+@$Km\?gZV3Jp4FFbA^Ba/.ST-u"W3N?*@Q*@J3mNWYL6;_"^\D<@38u<PB;M+$g?1cb]$-S<0Zr4OB=!VCiZY3]Jlg#YnDA>d[oL2+\]45L##+]2iUdbn#CQTHX)]-VY7"G^tma3Re'd&TV1)YSs;q&kW?SBaOpb3&t(@&DBfQ)BU"Zp@2R;rjfb1h\0@Foci=?9YE3O.RSU7Z$AP_J"CD0]k^*4_iIP/Fj$g9tpH+-;D*$bN^&,DjRE8niCi46?d-^rq9&"b45X+V6BCNWA,4BA]&!LuD9ITs%N'p!W?QZ66Ag93B1SU0k6"K,j)!P)1m<,$@/IjI5'b7%9dNV1aOlBV"-J!';S3@*lFZNM7es`0.ZY#Ys<]`Lpq=s[Go:S<2Fo(cWZF&WB_86kV$`9dVPR[>f6.GJ"Yh_LOqnd=O"53P2<Z&DkUj@,g&VN%qoTEl<)lTakc]ajaXb_W=kEOH\BVJaikB#eD<`F-U]qcPa<SC^j7Z@Vsbl%1D6U'rYZEg<g\>$KV.TL@SM\T:<Y/i,2fuhWW-Vrt?_YsKHD2!aH\.T\%WX>3tYoA%0-]!d7]nBg34`F>fK+"PXG*O*')5aiN,B-HRN,W!n:s]7]j]JQ^VcKUJC^Jj0RT=LXkMb2X(tK[k31$S0+GHtsahZ<p@=1)DghopXL7p:Y^Frq;ois1#)FU<`Gb*3BNX`[@U#jiX0eDj`pTI@m@22)5F0`Z;)3+52,P']u]OiWM\>boL.lHRMRe,(#;lTD4#'ht`L>D>H)VmVnL.9)!5D3ZgrjCXQ%WALGK].'P_feqY\pb1XhO[Y%B!a>3:5436Hr35VZoKIdPI.n(lO.<(T*&_!HbE"-1h'sK;Gk,Ilq$<Y/#+f$R6C-gWOW\cMc->*)fXaT?/[s*KP0@RDL;*b^QY0Yo)5Q4n73L`s(<<qcPjYTXM&J#E'#(H$nEkVn.4aU08G0uK<)i]8S@+f<);RB(pjfs%p'G&_C(1.)ndi6@JE@FNsN5DE,ac^4<9C=&c*n5S^Z*F?A_W1"3p>ap!)*TiUpu@05Qo5-2l"<]XB(TWlrGVRE2pCBWL):9aQG,0iP1@1sdjOn-J2Z&?2dh]d<Rt/ql=(C/2R6rrS'_\eG~>endstream
+q
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.094118 .094118 .105882 rg
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 40 799.8898 Tm (BALAJI S) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 40 783.8898 Tm (Full Stack Developer - Laravel | React | TypeScript) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F1 8.3 Tf 9.96 TL ET
+BT 1 0 0 1 40 769.8898 Tm (Madurai, Tamil Nadu, India | +91 88381 87342 | barath19231@gmail.com) Tj T* ET
+BT 1 0 0 1 40 759.8898 Tm (github.com/balajis-dev5 | balajis-dev.vercel.app | linkedin.com/in/balaji-s-72245b244) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 739.8898 m 555.2756 739.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 727.8898 Tm (PROFESSIONAL SUMMARY) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 40 715.8898 Tm (Full Stack Developer with 2+ years of experience building features for a production multi-tenant real-estate CRM. Core developer of an) Tj T* ET
+BT 1 0 0 1 40 704.8898 Tm (Advanced Reporting module and contributor to a React 19, TypeScript, Laravel and PostgreSQL CRM rebuild. Experienced in SQL) Tj T* ET
+BT 1 0 0 1 40 693.8898 Tm (optimization, REST APIs, and AI-assisted Playwright MCP end-to-end testing in isolated sandbox environments.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 672.8898 m 555.2756 672.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 660.8898 Tm (TECHNICAL SKILLS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 648.8898 Tm (Backend:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 648.8898 Tm (PHP 8.x, Laravel 10-12, REST APIs, JWT, Livewire, Eloquent, Queues, Cron Scheduling) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 637.8898 Tm (Frontend:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 637.8898 Tm (React 19, TypeScript, JavaScript, Vite, Tailwind CSS, TanStack Query, React Hook Form, Zod, Chart.js) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 626.8898 Tm (Databases:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 626.8898 Tm (MySQL, PostgreSQL, schema and index design, query optimization, large datasets) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 615.8898 Tm (Testing:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 615.8898 Tm (Playwright MCP, TypeScript, AI-assisted end-to-end testing, functional testing, sandbox environments) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 40 604.8898 Tm (Tools:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 88 604.8898 Tm (Git, GitHub \(GitFlow\), Postman, Docker \(basics\), ESLint, Prettier, Agile, Scrum) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 585.8898 m 555.2756 585.8898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 573.8898 Tm (PROFESSIONAL EXPERIENCE) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 40 561.8898 Tm (Software Developer \(Full Stack\) - RSoft Technologies Pvt Ltd) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 484.304 561.8898 Tm (Jun 2024 - Present) Tj T* ET
+.321569 .321569 .356863 rg
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 40 550.8898 Tm (Enterprise CRM product \(real estate\)) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 539.8898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 539.8898 Tm (Core developer of the Advanced Reports module: dynamic detail, summary and matrix reporting with multi-level group-by, aggregates and) Tj T* ET
+BT 1 0 0 1 51 529.5898 Tm (10+ chart types.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 517.7898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 517.7898 Tm (Built filters, saved reports, relative-date ranges, scheduling and automated email/WhatsApp delivery with Laravel Scheduler, queues and) Tj T* ET
+BT 1 0 0 1 51 507.4898 Tm (cron.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 495.6898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 495.6898 Tm (Developed Excel, CSV and PDF exports for large datasets using chunked queries and streamed downloads; optimized heavy MySQL) Tj T* ET
+BT 1 0 0 1 51 485.3898 Tm (reports with composite indexes, eager loading and EXPLAIN-verified query changes.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 473.5898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 473.5898 Tm (Built the Call Block permission flow: administrators configure access in Profile Settings and Module Privileges, while Leads shows or hides) Tj T* ET
+BT 1 0 0 1 51 463.2898 Tm (phone call actions for each user permission.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 451.4898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 451.4898 Tm (Developed AI-assisted Playwright MCP tests in TypeScript in isolated sandbox environments, covering login, privilege setup and) Tj T* ET
+BT 1 0 0 1 51 441.1898 Tm (permission-driven Leads UI behaviour; reused the workflow for other CRM features.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 429.3898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 429.3898 Tm (Built CRM Map functionality \(property pins, clustering, nearby search and sales territories\), Unit Management inventory, and role-based) Tj T* ET
+BT 1 0 0 1 51 419.0898 Tm (report sharing.) Tj T* ET
+.309804 .27451 .898039 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 407.2898 Tm (-) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 51 407.2898 Tm (Contributing to the next-generation CRM: React 19 + TypeScript + Vite SPA over a Laravel 12 + PostgreSQL REST API for dashboard,) Tj T* ET
+BT 1 0 0 1 51 396.9898 Tm (reports, leads, customers and follow-ups.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 377.1898 m 555.2756 377.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 365.1898 Tm (PROJECTS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 353.1898 Tm (Advanced Report Builder:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 143.4266 353.1898 Tm (github.com/balajis-dev5/advanced-report-builder - Laravel 12 API that compiles JSON report definitions into) Tj T* ET
+BT 1 0 0 1 143.4266 343.1898 Tm (whitelist-validated SQL; React 19 builder with preview, charts, export, sharing and scheduled deliveries.) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 332.1898 Tm (Modern CRM:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 95.5714 332.1898 Tm (github.com/balajis-dev5/modern-crm - Full-stack CRM with a kanban lead pipeline, customers, follow-ups, analytics, JWT) Tj T* ET
+BT 1 0 0 1 95.5714 322.1898 Tm (refresh rotation and 30 PHPUnit tests.) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 311.1898 Tm (Portfolio:) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 78.7204 311.1898 Tm (balajis-dev.vercel.app - React 19, Vite and Tailwind CSS v4 portfolio with light/dark mode, SEO and accessibility-first design.) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 292.1898 m 555.2756 292.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 280.1898 Tm (EDUCATION) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 40 268.1898 Tm (MCA \(Distinction\) - Kongu Arts and Science College, Bharathiar University, 2024) Tj T* ET
+BT 1 0 0 1 40 258.1898 Tm (B.Sc. Computer Science - Vivekananda College, Madurai Kamaraj University, 2022) Tj T* ET
+.309804 .27451 .898039 RG
+1.1 w
+n 40 240.1898 m 555.2756 240.1898 l S
+BT /F2 9.3 Tf 11.16 TL ET
+.309804 .27451 .898039 rg
+BT 1 0 0 1 40 228.1898 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj T* ET
+.094118 .094118 .105882 rg
+BT /F1 8.15 Tf 9.78 TL ET
+BT 1 0 0 1 40 216.1898 Tm (JavaScript - Great Learning | Software Testing - NPTEL | Certificate Course - IGNOU) Tj T* ET
+BT 1 0 0 1 40 206.1898 Tm (First Prize - National and Inter-College Technical Paper Presentations | Department Rank Holder) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+36 301 524 73 re
+f*
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 365 Tm
+(Advanced Report Builder\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 143.4266 365 Tm
+(Private project \055 in progress\056 Reporting engine built with Laravel 12 and React 19\073 includes preview\054) Tj
+T*
+ET
+BT
+1 0 0 1 40 355 Tm
+(charts\054 exports\054 sharing and scheduled deliveries\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 337 Tm
+(Modern CRM\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 95.5714 337 Tm
+(Private project \055 in progress\056 Full\055stack CRM with a kanban lead pipeline\054 customers\054 follow\055ups\054 analytics\054 JWT) Tj
+T*
+ET
+BT
+1 0 0 1 40 327 Tm
+(refresh rotation and 30 PHPUnit tests\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 309 Tm
+(Portfolio\072) Tj
+T*
+ET
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 78.7204 309 Tm
+(balajis\055dev\056vercel\056app \055 React 19\054 Vite and Tailwind CSS v4 portfolio with light\057dark mode\054 SEO and accessibility\055first) Tj
+T*
+ET
+BT
+1 0 0 1 40 299 Tm
+(design\056) Tj
+T*
+ET
+Q
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+36 301 524 73 re
+f*
+0.31 0.27 0.9 rg
+BT
+/F2-1 9.3 Tf
+11.16 TL
+ET
+BT
+1 0 0 1 40 364 Tm
+(PROJECTS) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 346 Tm
+(Advanced Report Builder\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 143.4266 346 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 329 Tm
+(Modern CRM\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 95.5714 329 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-1 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 312 Tm
+(Portfolio\072) Tj
+T*
+ET
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 78.7204 312 Tm
+(balajis\055dev\056vercel\056app \055 React 19\054 Vite and Tailwind CSS v4\056) Tj
+T*
+ET
+Q
+
+Q
+
+endstream
+endobj
+24 0 obj
+<<
+/Length 881
+>>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-2 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+36 288 524 86 re
+f*
+0.31 0.27 0.9 RG
+1.1 w
+n
+40 288 m
+555 288 l
+S
+0.31 0.27 0.9 rg
+BT
+/F2-2 9.3 Tf
+11.16 TL
+ET
+BT
+1 0 0 1 40 364 Tm
+(PROJECTS) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-2 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 346 Tm
+(Advanced Report Builder\072) Tj
+T*
+ET
+BT
+/F1-2 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 143.4266 346 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-2 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 329 Tm
+(Modern CRM\072) Tj
+T*
+ET
+BT
+/F1-2 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 95.5714 329 Tm
+(Private project \055 in progress\056) Tj
+T*
+ET
+0.095 0.095 0.11 rg
+BT
+/F2-2 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 40 312 Tm
+(Portfolio\072) Tj
+T*
+ET
+BT
+/F1-2 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 78.7204 312 Tm
+(balajis\055dev\056vercel\056app \055 React 19\054 Vite and Tailwind CSS v4\056) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+25 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 85 304 190 320 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057balajis\055dev\056vercel\056app)
+>>
+/P 3 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 148 749 255 762 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057balajis\055dev\056vercel\056app)
+>>
+/P 3 0 R
+>>
 endobj
 xref
-0 10
+0 27
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000446 00000 n 
-0000000649 00000 n 
-0000000717 00000 n 
-0000001008 00000 n 
-0000001067 00000 n 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000388 00000 n 
+0000000421 00000 n 
+0000010128 00000 n 
+0000011014 00000 n 
+0000011144 00000 n 
+0000011251 00000 n 
+0000011358 00000 n 
+0000011466 00000 n 
+0000011579 00000 n 
+0000011692 00000 n 
+0000011805 00000 n 
+0000011921 00000 n 
+0000012100 00000 n 
+0000012290 00000 n 
+0000012505 00000 n 
+0000012694 00000 n 
+0000012884 00000 n 
+0000013207 00000 n 
+0000013315 00000 n 
+0000013428 00000 n 
+0000023977 00000 n 
+0000024910 00000 n 
+0000025099 00000 n 
 trailer
 <<
-/ID 
-[<a3497699850894497b5707d8b0df941d><a3497699850894497b5707d8b0df941d>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 27
+/Root 1 0 R
+/Info 20 0 R
+/ID [ (\243Iv\231\205\010\224I\173W\007\330\260\337\224\035) (\243Iv\231\205\010\224I\173W\007\330\260\337\224\035) ]
 >>
 startxref
-4278
+25289
 %%EOF

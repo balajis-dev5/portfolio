@@ -10,7 +10,7 @@ export default function About() {
           <img
             src="/photo.jpg"
             alt="Balaji S"
-            className="aspect-[4/5] w-full max-w-[16rem] rounded-2xl border border-zinc-200 object-cover object-[55%_center] shadow-lg dark:border-zinc-800"
+            className="profile-photo aspect-[4/5] w-full max-w-[16rem] rounded-2xl border border-zinc-200 object-cover object-[55%_center] shadow-lg dark:border-zinc-800"
           />
         </Reveal>
         <div className="space-y-5">

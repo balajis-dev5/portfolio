@@ -48,7 +48,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
           ))}
           <a
             href={profile.resumeUrl}
-            download
+            download="Balaji_S_Full_Stack_Developer_Resume.pdf"
             className="btn-gradient ml-2 inline-flex items-center gap-1.5 rounded-lg px-3.5 py-2 text-sm font-semibold text-white"
           >
             <Download size={15} aria-hidden="true" />
@@ -99,7 +99,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
           ))}
           <a
             href={profile.resumeUrl}
-            download
+            download="Balaji_S_Full_Stack_Developer_Resume.pdf"
             className="mt-2 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white"
           >
             <Download size={15} aria-hidden="true" />

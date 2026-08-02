@@ -44,7 +44,7 @@ export default function App() {
           </p>
           <a
             href={profile.resumeUrl}
-            download
+            download="Balaji_S_Full_Stack_Developer_Resume.pdf"
             className="btn-gradient mt-6 inline-flex items-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold text-white"
           >
             <Download size={16} aria-hidden="true" />

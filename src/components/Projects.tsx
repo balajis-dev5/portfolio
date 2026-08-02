@@ -41,7 +41,7 @@ export default function Projects() {
               role="button"
               tabIndex={0}
               aria-label={`View details for ${project.name}`}
-              className="group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
+              className="project-card group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
             >
               {project.image && (
                 <div className="overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
@@ -148,7 +148,7 @@ export default function Projects() {
               role="button"
               tabIndex={0}
               aria-label={`View details for ${project.name}`}
-              className="group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
+              className="project-card group card-lift flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white hover:border-indigo-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-600/60"
             >
               {project.image && (
                 <div className="overflow-hidden border-b border-zinc-200 dark:border-zinc-800">

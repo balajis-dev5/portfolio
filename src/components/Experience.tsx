@@ -9,7 +9,7 @@ export default function Experience() {
       <div className="space-y-8">
         {experience.map((job) => (
           <Reveal key={job.company}>
-            <article className="rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900">
+            <article className="experience-card rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900">
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="flex items-start gap-4">
                   <span className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-indigo-600/10 text-indigo-600 dark:bg-indigo-500/15 dark:text-indigo-400">

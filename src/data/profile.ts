@@ -251,6 +251,7 @@ export const projects: Project[] = [
       },
     ],
     featured: true,
+    hidden: true,
   },
   {
     name: 'Modern CRM',
@@ -267,6 +268,7 @@ export const projects: Project[] = [
     live: 'https://crm-web-balaji.onrender.com',
     image: '/projects/covers/modern-crm.svg',
     featured: true,
+    hidden: true,
   },
   {
     name: 'Property Management System',
@@ -282,6 +284,7 @@ export const projects: Project[] = [
     live: 'https://pms-web-balaji.onrender.com',
     image: '/projects/covers/property-management.svg',
     featured: false,
+    hidden: true,
   },
   {
     name: 'React Admin Dashboard',

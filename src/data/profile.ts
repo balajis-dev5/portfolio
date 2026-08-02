@@ -167,7 +167,7 @@ export const skillGroups: SkillGroup[] = [
       'GitFlow',
       'Postman',
       'Playwright MCP',
-      'AI-assisted E2E testing',
+      'End-to-end testing workflows',
       'Docker (basics)',
       'ESLint / Prettier',
       'Agile / Scrum',
@@ -187,12 +187,12 @@ export const experience: Experience[] = [
       {
         name: 'Advanced Reports — module owner',
         bullets: [
-          'Dynamic report builder: detail, summary and matrix reports with multi-level group-by and aggregate functions over any CRM module.',
-          'Filter engine with condition groups, saved filters, relative-date ranges and picklist-change tracking.',
-          'Chart builder with 10+ chart types, drill-down, and dashboard widget embedding.',
-          'Scheduled delivery (daily/weekly/monthly) by email and WhatsApp via queues and cron.',
-          'Excel/CSV/PDF exports over large datasets using chunked, streamed queries.',
-          'MySQL optimization: composite indexes, eager loading and query restructuring on high-volume tables.',
+          'Built a dynamic report builder for 3 report formats: detail, summary and matrix, with multi-level grouping and aggregates.',
+          'Implemented filters, saved views, relative-date ranges and picklist-change tracking for self-service reporting.',
+          'Delivered 10+ chart types with drill-down and dashboard widget embedding.',
+          'Automated daily, weekly and monthly report delivery by email and WhatsApp using queues and cron.',
+          'Supported 3 export formats - Excel, CSV and PDF - with chunked, streamed queries for large datasets.',
+          'Improved high-volume MySQL reporting with composite indexes, eager loading and EXPLAIN-guided query restructuring.',
         ],
       },
       {
@@ -210,8 +210,8 @@ export const experience: Experience[] = [
       {
         name: 'Call Block feature & end-to-end testing',
         bullets: [
-          'Built the Call Block permission flow: administrators configure access in Profile Settings and Module Privileges; the Leads module shows or hides phone call actions according to each user\'s assigned permission.',
-          'Developed AI-assisted Playwright MCP tests in TypeScript within isolated sandbox environments, covering login, privilege setup and permission-driven UI behaviour; reused the workflow to validate other CRM features end to end.',
+          'Built the Call Block permission flow across Profile Settings, Module Privileges and Leads, showing or hiding phone call actions by user permission.',
+          'Created Playwright MCP end-to-end testing workflows in TypeScript and isolated sandbox environments for login, privilege setup and permission-driven Leads UI validation.',
         ],
       },
       {

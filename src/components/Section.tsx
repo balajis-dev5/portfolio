@@ -12,7 +12,7 @@ interface SectionProps {
 /** Consistent wrapper: max width, vertical rhythm, kicker + title. */
 export default function Section({ id, kicker, title, children, className = '' }: SectionProps) {
   return (
-    <section id={id} className={`scroll-mt-20 py-20 sm:py-24 ${className}`}>
+    <section id={id} className={`section-shell scroll-mt-20 py-20 sm:py-24 ${className}`}>
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <Reveal>
           <p className="flex items-center gap-3 text-sm font-semibold tracking-widest text-indigo-600 uppercase dark:text-indigo-400">

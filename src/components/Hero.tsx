@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { ArrowRight, Braces, CheckCircle2, Github, Linkedin, Mail, MapPin, Terminal } from 'lucide-react'
 import { heroStats, profile } from '../data/profile'
 import CountUp from './CountUp'
 
@@ -19,7 +19,8 @@ export default function Hero() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto max-w-5xl px-5 sm:px-8">
+      <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.08fr_0.92fr]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -90,9 +91,7 @@ export default function Hero() {
             <MapPin size={14} aria-hidden="true" />
             {profile.location}
           </p>
-        </motion.div>
-
-        <motion.dl
+          <motion.dl
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35 }}
@@ -108,7 +107,63 @@ export default function Hero() {
               </dd>
             </div>
           ))}
-        </motion.dl>
+          </motion.dl>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.96, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className="relative mx-auto w-full max-w-md lg:mt-8"
+        >
+          <div className="hero-orbit hero-orbit-a" aria-hidden="true" />
+          <div className="hero-orbit hero-orbit-b" aria-hidden="true" />
+          <div className="hero-terminal overflow-hidden rounded-3xl border border-white/50 bg-zinc-950/90 shadow-2xl shadow-indigo-950/30 ring-1 ring-indigo-500/20 backdrop-blur-xl dark:border-zinc-700/60">
+            <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+              <div className="flex gap-1.5" aria-hidden="true">
+                <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
+                <span className="h-2.5 w-2.5 rounded-full bg-amber-300" />
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+              </div>
+              <span className="font-mono text-[11px] text-zinc-500">shipping.log</span>
+              <Terminal size={15} className="text-indigo-300" aria-hidden="true" />
+            </div>
+            <div className="space-y-5 p-5 font-mono text-xs leading-relaxed sm:p-6">
+              <div className="flex items-center gap-2 text-emerald-300">
+                <span className="text-zinc-500">$</span>
+                <span>build --experience</span>
+                <span className="terminal-cursor" aria-hidden="true" />
+              </div>
+              <div className="space-y-3 border-l border-indigo-400/30 pl-4 text-zinc-400">
+                <p><span className="text-violet-300">stack</span>: Laravel + React + TypeScript</p>
+                <p><span className="text-violet-300">focus</span>: reliable data-heavy products</p>
+                <p><span className="text-violet-300">testing</span>: Playwright MCP + sandbox</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/[0.05] p-4">
+                <div className="flex items-center gap-2 text-white">
+                  <Braces size={15} className="text-sky-300" aria-hidden="true" />
+                  <span className="font-semibold">Feature delivery</span>
+                </div>
+                <div className="mt-3 space-y-2.5 text-zinc-400">
+                  {['Reporting engines', 'CRM workflows', 'End-to-end quality checks'].map((item, index) => (
+                    <motion.div
+                      key={item}
+                      initial={{ opacity: 0, x: -8 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.75 + index * 0.12 }}
+                      className="flex items-center gap-2"
+                    >
+                      <CheckCircle2 size={14} className="shrink-0 text-emerald-300" aria-hidden="true" />
+                      {item}
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+              <p className="text-[11px] text-zinc-500">status: <span className="text-emerald-300">ready to build</span></p>
+            </div>
+          </div>
+        </motion.div>
+        </div>
       </div>
     </section>
   )

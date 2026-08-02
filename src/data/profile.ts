@@ -166,6 +166,8 @@ export const skillGroups: SkillGroup[] = [
       'Git & GitHub',
       'GitFlow',
       'Postman',
+      'Playwright MCP',
+      'AI-assisted E2E testing',
       'Docker (basics)',
       'ESLint / Prettier',
       'Agile / Scrum',
@@ -203,6 +205,13 @@ export const experience: Experience[] = [
         name: 'Unit Management module',
         bullets: [
           'Real-estate inventory: units, availability, booking status, pricing, floor plans and sales tracking.',
+        ],
+      },
+      {
+        name: 'Call Block feature & end-to-end testing',
+        bullets: [
+          'Built the Call Block permission flow: administrators configure access in Profile Settings and Module Privileges; the Leads module shows or hides phone call actions according to each user\'s assigned permission.',
+          'Developed AI-assisted Playwright MCP tests in TypeScript within isolated sandbox environments, covering login, privilege setup and permission-driven UI behaviour; reused the workflow to validate other CRM features end to end.',
         ],
       },
       {
